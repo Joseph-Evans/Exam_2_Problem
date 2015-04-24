@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Categories Portal</title>
+    <link rel="stylesheet" type="text/css" href="css/Exam2Problem.css">
+    <script src="js/Exam2Problem.js"></script>
+</head>
+
+<body>
+    <section id="header">
+        <h1>Categories Portal</h1>
+        <hr>
+        <hr>
+        <select onchange="MenuChoice()" id="menu">
+            <option>Please select an option</option>
+            <option>View Categories</option>
+            <option>Add Product Category</option>
+            <option>Change Category Description</option>
+            <option>Delete Category</option>
+            <option>About Me</option>
+        </select>
+    </section>
+    <section id="viewcategories">
+        <hr>
+        <h2>Categories Table</h2>
+        <hr>
+        <button onclick="ViewCategories()">View Categories</button>
+        <hr>
+        <label id="categoriestable">Table will appear here</label>
+    </section>
+    <section id="addproduct">
+        <hr>
+        <h2>Add Product Category</h2>
+        <hr>
+        <label>Enter a new category name:</label>
+        <input type="text" id="cname">
+        <br>
+        <label>Enter the category description</label>
+        <input type="text" id="cdescription">
+        <br>
+        <button onclick="AddCategory()">Add Category</button>
+        <hr>
+        <label id="addresults">Results will appear here</label>
+    </section>
+    <section id="changedescription">
+        <hr>
+        <h2>Change Category Description</h2>
+        <hr>
+        <label>Enter the category ID:</label>
+        <input type="text" id="cid">
+        <br>
+        <label>Enter the new category description:</label>
+        <input type="text" id="cnewdescription">
+        <br>
+        <button onclick="ChangeDescription()">Change Description</button>
+        <hr>
+        <label id="newdescresults">Results will appear here</label>
+    </section>
+    <section id="deletecategory">
+        <hr>
+        <h2>Delete Category</h2>
+        <hr>
+        <label>Enter the category ID:</label>
+        <input type="text" id="cdeleteid">
+        <br>
+        <button onclick="DeleteCategory()">Delete Category</button>
+        <hr>
+        <label id="deleteresults">Results will appear here</label>
+    </section>
+    <section id="aboutme">
+        <hr>
+        <h2>About me</h2>
+        <hr>
+        <p>Name: Joseph Evans</p>
+        <p>Major: Information Systems</p>
+        <p>Graduation: Spring 2015</p>
+        <p>Employment: Northrop Grumman</p>
+        <p>Email: joev@uab.edu</p>
+    </section>
+
+
+
+</body>
+</html>

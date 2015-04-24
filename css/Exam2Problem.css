@@ -1,0 +1,70 @@
+#viewcategories
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #FDF3E7;
+    color: #7E8F7C;
+}
+#addproduct
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #FDF3E7;
+    color: #7E8F7C;
+}
+#changedescription
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #FDF3E7;
+    color: #7E8F7C;
+}
+#deletecategory
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #FDF3E7;
+    color: #7E8F7C;
+}
+#aboutme
+{
+    visibility: hidden;
+    position: absolute;
+    overflow: scroll;
+    width: 600px;
+    background-color: #FDF3E7;
+    color: #7E8F7C;
+}
+#header
+{
+    background-color: #C63D0F;
+    color: #3B3738;
+    width: 600px;
+}
+
+#categoriestable
+{
+    background-color: #C63D0F;
+    color: #3B3738;
+}
+#addresults
+{
+    font-weight: bold;
+}
+#newdescresults
+{
+    font-weight: bold;
+}
+#deleteresults
+{
+    font-weight: bold;
+}
+
